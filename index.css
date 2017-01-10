@@ -6,7 +6,7 @@ h1{
 	background-color: #D19275;
 	color: #F0FFFF;
 	text-align: center;
-	border:solid 2px black;
+	border:solid 2px #F0FFFF;
 }
 
 .menuLeft{
@@ -15,16 +15,21 @@ h1{
 
 ul {
 	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 li {
-	border:solid 2px black;
+	border:solid 2px #F0FFFF;
 	float : left;
  	justify-content: center;
+ 	align-content: center;
   	background-color: #D19275;
   	width:40px;
   	height: 40px ;
   	display: flex;
+  	color: #F0FFFF;
 
 }
 

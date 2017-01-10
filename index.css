@@ -1,0 +1,40 @@
+body{
+  background-color: #A52A2A;
+}
+
+h1{
+	background-color: #D19275;
+	color: #F0FFFF;
+	text-align: center;
+	border:solid 2px black;
+}
+
+.menuLeft{
+  background-color: #FF7F50;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	border:solid 2px black;
+	float : left;
+ 	justify-content: center;
+  	background-color: #D19275;
+  	width:40px;
+  	height: 40px ;
+  	display: flex;
+
+}
+
+@media screen and (max-width: 625px)
+{
+/* propriétés pour mobile */
+}
+@media screen and (max-width: 976px)
+{
+/* propriétés pour tablette */
+}
+
+
